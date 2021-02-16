@@ -97,6 +97,9 @@ There, click on Serial Port 1 (console), and keep refreshing until you see somet
 
 `Feb 15 17:35:21 lab-monitor systemd[1]: Startup finished in 1.803s (kernel) + 43.280s (userspace) = 45.084s.`
 
+Now, you can actually visit the apache server with external ip, which you can find in the instance list. 
+Just enter `http:/[EXTERNAL_IP]/` into the web browser.
+
 Everything should work now, which you can check by checking progress on the page with the "End Lab" button.
 
 Finally, make a screenshot (On Windows, PrtScr, then open Paint and Ctrl+V) of the tab so we can see that you got 100/100.
