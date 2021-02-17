@@ -46,7 +46,7 @@ gcloud init # 1 1 5
 
 * Create Bucket:
 ```sh
-gsutil mb -b on -l us-east2 gs://$BUCKET_NAME
+gsutil mb -b on -l us-central1 gs://$BUCKET_NAME
 ```
 
 * Create startup script inside GCS:
